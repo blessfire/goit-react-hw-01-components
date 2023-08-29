@@ -8,13 +8,8 @@ import css from './Profile.module.css'
   stats={user.stats}
 /> }*/
 
-export const Profile = ({
-  user:username,
-  tag,
-  location,
-  avatar,
-  stats:followers, views, likes,
-}) => {
+export const Profile = ({username, tag, location, avatar, stats}
+) => {
   return (
     <div className={css.profile}>
   <div className="description">
@@ -50,7 +45,6 @@ Profile.propTypes = {
   tag: PropTypes.string.isRequired,
   location: PropTypes.string,
   avatar: PropTypes.string,
- 
   stats: PropTypes.object,
  // { followers, views, likes },
 }

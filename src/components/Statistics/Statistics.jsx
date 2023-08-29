@@ -1,12 +1,21 @@
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
-export const Statistics = ({data}) => {
-  console.log(data)
-  return (<section className="statistics">
+export const Statistics = ({ data }) => {
+  return (<ul className={css.stat_list}> {data.map((stat) => <li key={stat.id} className={css.item}><span className={css.label}>{stat.label}</span>
+     
+    <span className={css.percentage}>{stat.percentage}%</span></li>)}
+  </ul>)
+}
+
+Statistics.propTypes = {
+  label: PropTypes.string,
+  percentage: PropTypes.number,
+}
+
+/*  < section className = "statistics" >
   <h2 className="title">Upload stats</h2>
     <ul className="stat-list">
-      
       <li className={css.item} id='id-1'>
         <span className={css.label}>label</span>
       <span className={css.percentage}>percentage%</span>
@@ -24,5 +33,6 @@ export const Statistics = ({data}) => {
       <span className="percentage">12%</span>
     </li>
   </ul>
-</section>)
-}
+</>
+)
+}*/

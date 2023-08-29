@@ -1,9 +1,9 @@
-import { Profile } from 'components/Profile/Profile';
+// import { Profile } from 'components/Profile/Profile';
 import { Statistics} from 'components/Statistics/Statistics';
-import user from 'data/user.json';
+// import user from 'data/user.json';
 import data from 'data/data.json';
-import friends from 'data/friends.json';
-import transactions from 'data/transactions.json';
+// import friends from 'data/friends.json';
+// import transactions from 'data/transactions.json';
 
 
 export const App = () => {
@@ -15,7 +15,8 @@ export const App = () => {
      alignItems: 'center',
      fontSize: 40,
      color: '#010101'
-    }}> <Profile text={ user} />
+    }}>
+      {/* <Profile username={username} /> */}
       <Statistics data={data} />
       
     </div>

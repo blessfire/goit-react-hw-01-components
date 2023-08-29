@@ -1,10 +1,20 @@
 .title {
 }
-.stat-list {
+.stat_list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 .item {
+  width: 40px;
+  height: 40px;
 }
 .label {
+  color: blue;
 }
 .percentage {
+  color: red;
 }
