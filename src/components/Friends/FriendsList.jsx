@@ -1,4 +1,5 @@
-import friends from 'data/friends.json';
+import PropTypes from 'prop-types';
+
 
 {/* <FriendList friends={friends} />; */}
 

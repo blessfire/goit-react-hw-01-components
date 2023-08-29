@@ -1,4 +1,4 @@
-import transactions from 'data/transactions.json';
+import PropTypes from 'prop-types';
 
 <table class="transaction-history">
   <thead>
