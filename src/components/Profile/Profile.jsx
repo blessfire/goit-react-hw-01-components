@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './Profile.mod.css'
+import css from './Profile.module.css'
 /*{ <Profile
   username={user.username}
   tag={user.tag}
