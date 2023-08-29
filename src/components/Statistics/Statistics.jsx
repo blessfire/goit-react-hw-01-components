@@ -1,6 +1,9 @@
+import css from './Statistics.module.css';
 import data from 'data/data.json';
 
-<section class="statistics">
+export const Statistics = ({ data }) => {
+  console.log(data)
+  return (<section class="statistics">
   <h2 class="title">Upload stats</h2>
 
   <ul class="stat-list">
@@ -21,4 +24,5 @@ import data from 'data/data.json';
       <span class="percentage">12%</span>
     </li>
   </ul>
-</section>
+</section>)
+}
