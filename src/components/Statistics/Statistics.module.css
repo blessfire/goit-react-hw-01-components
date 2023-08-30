@@ -40,21 +40,6 @@
 
   /* justify-content: center;
   align-items: center; */
-  &:nth-child(1) {
-    background-color: #66cc00;
-  }
-  &:nth-child(2) {
-    background-color: #0066ff;
-  }
-  &:nth-child(3) {
-    background-color: #ff0066;
-  }
-  &:nth-child(4) {
-    background-color: rgb(0, 93, 6);
-  }
-  &:nth-child(5) {
-    background-color: #00b3b3;
-  }
 }
 
 .label {
