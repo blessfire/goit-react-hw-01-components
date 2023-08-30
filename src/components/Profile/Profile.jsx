@@ -12,7 +12,8 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
       </div>
 
       <ul className={css.stats}>
-        {Object.entries(stats).map(([label, quantity]) => (
+        {Object.entries(stats).map(([label, quantity]) => ( 
+          
           <li key={label}>
             <span className={css.label}>{label}</span>
             <span className={css.quantity}>{quantity}</span>
