@@ -1,8 +1,15 @@
 .friends_box {
-  width: 710px;
-  backgroundcolor: red;
+  width: 630px;
+  padding: 80px 40px;
+  background-color: #86a1c2;
 }
 .friend_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  min-width: 300px;
 }
 .item {
   display: flex;
@@ -10,7 +17,12 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: nowrap;
+  min-width: 300px;
+  padding: 12px;
   gap: 12px;
+  background-color: aliceblue;
+  border-radius: 12px;
+  box-shadow: 8px 11px 14px -4px rgba(43, 43, 150, 1);
 }
 .avatar {
 }
